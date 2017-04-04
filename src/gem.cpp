@@ -51,7 +51,7 @@ void GEMS::createAllStones (void){
 	g[3] %= 3;
 }
 
-size_t GEMS::setStones (size_t stoneLevel, size_t numberOfStones = 1){
+size_t GEMS::setStones (size_t stoneLevel, size_t numberOfStones){
 	if (stoneLevel == 0 || stoneLevel > 5)
 		return INCORRECT_STONE_LEVEL;
 	g[SL(stoneLevel)] += numberOfStones;
