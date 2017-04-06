@@ -16,6 +16,7 @@
 #define INCORRECT_STONE_LEVEL   2
 #define STONE_DOES_NOT_EXIST    4
 #define NOT_ENOUGH_STONES       6
+#define INCORRECT_STONE_TYPE    8           //using only for GEM_TABLE
 /// END SECTION
 ///=========================================
 
@@ -33,8 +34,9 @@
 ///=========================================
 /// ACTIONS TO OBTAIN DATA
 ///=========================================
-#define NUMBER_OF_STONES_BY_TYPE        12
-#define NUMBER_OF_STONES_BY_BASE_TYPE   13
+#define NUMBER_OF_STONES_BY_LVL          12
+#define NUMBER_OF_STONES_BY_BASE_LVL     13
+#define NUMBER_OF_ALL_STONES_BY_BASE_LVL 14  //using only for GEM_TABLE
 /// END SECTION
 ///=========================================
 
